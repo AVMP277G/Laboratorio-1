@@ -55,7 +55,7 @@ if _name_ == "_main_":
             print("Decimal:", octal_to_decimal(octal))
 
         elif opcion == "5":
-            decimal_str = input("Ingresa un número decimal (positivo o negativo): ")
+            decimal_str = input("Ingresa un número decimal (negativo): ")
             decimal = int(decimal_str.replace(" ", "")) # Remueve espacios despúes para convertirlo en int
             bits = int(input("Número de bits a usar (ej: 8, 16, 32): "))
             print("Complemento a 2:", complemento_a_2(decimal, bits))
